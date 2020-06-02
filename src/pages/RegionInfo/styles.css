@@ -1,0 +1,33 @@
+.info-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.data-container {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 50%;
+  border: 1px solid #000;
+}
+
+.data-block {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dadada;
+  cursor: pointer;
+  padding: 5px 20px;
+}
+
+.data-block:hover {
+  border-bottom: 2px solid lightblue;
+}
+
+.data-field {
+  width: 300px;
+  margin: 0;
+  text-align: center;
+  word-break: break-all;
+}
